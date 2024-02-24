@@ -43,7 +43,7 @@ const RandomColor = () => {
                 Generate Random Color
             </button>
             <div style={{fontSize: '45px', fontWeight: '700', color: '#fff'}}>
-                <p>Random {typeOfColor ==='hex'? 'HEX' : 'RGB'} Color</p>
+                <h1>Random {typeOfColor ==='hex'? 'HEX' : 'RGB'} Color</h1>
                 <p>{color}</p>
             </div>
         </div>
